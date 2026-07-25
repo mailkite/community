@@ -10,13 +10,21 @@ give your agents their own inbox.
 
 | I want to… | Go to |
 |---|---|
-| Ask how to do something | [Discussions → Q&A](https://github.com/mailkite/community/discussions) |
-| Request a feature, an SDK, or an integration | [Discussions → Ideas](https://github.com/mailkite/community/discussions) |
-| Show what you built | [Discussions → Show and tell](https://github.com/mailkite/community/discussions) |
-| Report a bug in a library | That library's repo → Issues (see the tables below) |
+| Ask how to do something | [Q&A](https://github.com/mailkite/community/discussions/categories/q-a) |
+| Report something broken | [Bug reports](https://github.com/mailkite/community/discussions/categories/bug-reports) |
+| Request a feature, an SDK, or an integration | [Feature requests](https://github.com/mailkite/community/discussions/categories/feature-requests) |
+| Show what you built | [Show and tell](https://github.com/mailkite/community/discussions/categories/show-and-tell) |
 | Read the docs | [mailkite.dev/docs](https://mailkite.dev/docs) |
 | Check platform health | [mailkite.dev/status](https://mailkite.dev/status) |
 | Reach a human privately | [mailkite.dev/contact](https://mailkite.dev/contact) |
+
+**Bug reports** and **Feature requests** open as guided forms — the fields are the ones that
+decide how fast you get an answer (library and version, expected vs. actual, a message or
+request ID for bugs; the underlying problem, not just the proposed feature, for requests).
+A bug in one specific SDK can also go to that mirror's Issues tab; either way it reaches us.
+
+Never paste API keys, tokens, or real recipients' addresses into a public thread — use
+[contact](https://mailkite.dev/contact) for anything account-specific.
 
 > **Heads-up on pull requests.** Every library below is developed in a private monorepo and
 > published to its public repo as a **read-only release mirror**. PRs opened against a mirror
